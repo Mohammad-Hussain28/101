@@ -104,10 +104,10 @@
 	</body>
 </html>
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "secure_bank";
+$servername = "secure-b.database.windows.net";
+$username = "secure";
+$password = "Navya@123";
+$dbname = "secure-b";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
